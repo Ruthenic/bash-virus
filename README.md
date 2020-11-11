@@ -13,6 +13,8 @@ sudo docker run -it --entrypoint "/bin/bash" ubuntu:latest
 #In container
 apt update && apt install sudo
 ```
+(Note: may work on non Ubuntu distros, however they are untested)
+
 After doing this, copy the virus files to the docker container in another terminal tab/window, with commands similar to:
 ```
 sudo docker ps --format "{{.Names}}"
