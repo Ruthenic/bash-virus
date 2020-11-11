@@ -25,7 +25,7 @@ When running `installer1.sh`, the file copies `installer2.sh` (the payload and s
 `installer2.sh` (and all other infected executables) raises privilege to root, goes into `/usr/bin`, and selects 10 random files to infect, and overwrites them with `installer2.sh` (the desired payload and spreader), then exits
 
 # TODO
-Edit spreader to not infect previously infected files 
-Edit spreader to not impact functionality of files infected 
-Edit `virus.sh` to contain a more realistic representation of `sudo` 
+Edit spreader to not infect previously infected files  
+Edit spreader to not impact functionality of files infected  
+Edit `virus.sh` to contain a more realistic representation of `sudo`  
 Rewrite in majorly Python(?)
